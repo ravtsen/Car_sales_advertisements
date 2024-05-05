@@ -1,5 +1,7 @@
 [server]
+runOnSave = true
 headless = true
+fileWatcherType = "poll"
 port = 10000
 
 [browser]
