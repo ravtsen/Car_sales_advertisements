@@ -8,9 +8,10 @@ There is also analytical part in the app.
 Each button (4 pcs) presents hypothesis testing with conclusions.
 
 # Python libraries 
-pandas, plotly, mumpy, streamlit, PIL
+pandas, plotly, mumpy, streamlit, pillow
 
 # Web application address:
+https://vehicles-analytics.onrender.com/
 
 # Instructions
 Choose columns and characteristics from User Input Features on the left.

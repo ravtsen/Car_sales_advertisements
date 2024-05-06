@@ -21,7 +21,7 @@ st.markdown("""
 This app performs simple webscraping of vehicles marketing data!<br>
 User Input Features allows to compare different models, compare car characteristics.<br>     
 Below you can find some useful graphs with data analyses.
-* **Python libraries:** pandas, plotly, mumpy, streamlit, PIL
+* **Python libraries:** pandas, plotly, mumpy, streamlit, pillow
 """)
 
 #####################
