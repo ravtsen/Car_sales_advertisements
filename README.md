@@ -23,7 +23,7 @@ For *launching an app locally* you need to save project folder to your device.
 **Project repository tree**
 <br />
 ├── README.md<br />
-├── app.py<br />              
+├── app.py<br />            
 ├── vehicles_us.csv<br />
 ├── .gitignore<br />
 ├── used_cars.jpeg<br />
@@ -33,13 +33,14 @@ For *launching an app locally* you need to save project folder to your device.
 └── .streamlit<br />
     └── config.toml<br />
 
-app.py - application<br />
-vehicles_us.csv - dataset<br />
-EDA.ipynb - exploratory data analysis<br />
-config.toml - runs an application in server (headless) mode<br />
-requirements.txt - listing of all Python packages required to run the application<br />
+**app.py** - application<br />
+**vehicles_us.csv** - dataset<br />
+**EDA.ipynb** - exploratory data analysis<br />
+**config.toml** - runs an application in server (headless) mode<br />
+**requirements.txt** - listing of all Python packages required to run the application<br />
 
-**Launching an app locally**
+**Launching an app locally**<br />
+<br />
 First, make sure streamlit is installed:<br />
 *pip install streamlit*<br />
 Streamlit application is defined in app.py. To run it locally, use the streamlit run command from the root of the project repository folder:<br />
@@ -47,18 +48,20 @@ Streamlit application is defined in app.py. To run it locally, use the streamlit
 The output should link to a URL that will host a webpage with the empty application. If you set the serverAddress to "0.0.0.0" in the configuration, you should enter http://0.0.0.0:10000/ in your browser to see the output.
 
 ### App user interface
+
 Choose **data filters** from User Input Features on the left:<br />
-*Select model*<br />
-*Select car haracteristics*<br />
-*Select condition*<br />
-*Select type*<br />
-*Select fuel*<br />
-*Select mileage*<br />
+<br />
+* *Select model*<br />
+* *Select car haracteristics*<br />
+* *Select condition*<br />
+* *Select type*<br />
+* *Select fuel*<br />
+* *Select mileage*<br />
 
 On the right there is car advertising data based on used filters.
 
 Below you can find 4 buttons with *market analyses* and *data visualization*:<br />
-*Car price dependence on odometer readings and car age*<br />
-*Car types popularity*<br />
-*Car price dependence on condition*<br />
-*Transmission impact on market distribution and prices*<br />
+* *Car price dependence on odometer readings and car age*<br />
+* *Car types popularity*<br />
+* *Car price dependence on condition*<br />
+* *Transmission impact on market distribution and prices*<br />
