@@ -15,7 +15,7 @@ There is also *market analyses* with *data visualization* in the app.
 * Streamlit<br />
 * Pillow<br />
 
-## [Web application address:](https://vehicles-analytics.onrender.com/)
+## [Web application address](https://vehicles-analytics.onrender.com/)
 
 ## How to launch vehicals analytics app locally
 For *launching an app locally* you need to save project folder to your device.
@@ -23,7 +23,7 @@ For *launching an app locally* you need to save project folder to your device.
 **Project repository tree**
 <br />
 ├── README.md<br />
-├── app.py<br />            
+├── app.py<br />    
 ├── vehicles_us.csv<br />
 ├── .gitignore<br />
 ├── used_cars.jpeg<br />
@@ -33,14 +33,14 @@ For *launching an app locally* you need to save project folder to your device.
 └── .streamlit<br />
     └── config.toml<br />
 
-**app.py** - application<br />
-**vehicles_us.csv** - dataset<br />
-**EDA.ipynb** - exploratory data analysis<br />
-**config.toml** - runs an application in server (headless) mode<br />
-**requirements.txt** - listing of all Python packages required to run the application<br />
+* **app.py** - application<br />
+* **vehicles_us.csv** - dataset<br />
+* **EDA.ipynb** - exploratory data analysis<br />
+* **config.toml** - runs an application in server (headless) mode<br />
+* **requirements.txt** - listing of all Python packages required to run the application<br />
 
-**Launching an app locally**<br />
-<br />
+### Launching an app locally
+
 First, make sure streamlit is installed:<br />
 *pip install streamlit*<br />
 Streamlit application is defined in app.py. To run it locally, use the streamlit run command from the root of the project repository folder:<br />
@@ -50,7 +50,7 @@ The output should link to a URL that will host a webpage with the empty applicat
 ### App user interface
 
 Choose **data filters** from User Input Features on the left:<br />
-<br />
+
 * *Select model*<br />
 * *Select car haracteristics*<br />
 * *Select condition*<br />
