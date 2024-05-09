@@ -23,7 +23,7 @@ For *launching an app locally* you need to save project folder to your device.
 **Project repository tree**
 <br />
 ├── README.md<br />
-├── app.py<br />    
+├── app.py<br />
 ├── vehicles_us.csv<br />
 ├── .gitignore<br />
 ├── used_cars.jpeg<br />
