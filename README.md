@@ -15,7 +15,7 @@ There is also *market analyses* with *data visualization* in the app.
 * Streamlit<br />
 * Pillow<br />
 
-## [Web application address](https://vehicles-analytics.onrender.com/)
+## [Link to web application](https://vehicles-analytics.onrender.com/)
 
 ## How to launch vehicals analytics app locally
 For *launching an app locally* you need to save project folder to your device.
