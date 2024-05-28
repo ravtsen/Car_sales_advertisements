@@ -22,7 +22,6 @@ For *launching an app locally* you need to save project folder to your device.
 
 **Project repository tree**
 <br /> 
-'''
 ├── README.md<br />
 ├── app.py<br />
 ├── vehicles_us.csv<br />
@@ -30,10 +29,10 @@ For *launching an app locally* you need to save project folder to your device.
 ├── used_cars.jpeg<br />
 ├── requirements.txt<br />
 └── notebooks<br />
-    └── EDA.ipynb<br />
+>>>>└── EDA.ipynb<br />
 └── .streamlit<br />
-    └── config.toml<br />
-'''
+>>>>└── config.toml<br />
+
 * **app.py** - application<br />
 * **vehicles_us.csv** - dataset<br />
 * **EDA.ipynb** - exploratory data analysis<br />
