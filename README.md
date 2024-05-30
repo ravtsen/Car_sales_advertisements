@@ -21,7 +21,7 @@ There is also *market analyses* with *data visualization* in the app.
 For *launching an app locally* you need to save project folder to your device.
 
 **Project repository tree**
-<br /> 
+<br />
 ├── README.md<br />
 ├── app.py<br />
 ├── vehicles_us.csv<br />
@@ -29,9 +29,10 @@ For *launching an app locally* you need to save project folder to your device.
 ├── used_cars.jpeg<br />
 ├── requirements.txt<br />
 └── notebooks<br />
-    └── EDA.ipynb<br />
+&nbsp;&nbsp;&nbsp;&nbsp;└── EDA.ipynb<br />
 └── .streamlit<br />
-    └── config.toml<br />
+&nbsp;&nbsp;&nbsp;&nbsp;└── config.toml<br />
+
 
 * **app.py** - application<br />
 * **vehicles_us.csv** - dataset<br />
