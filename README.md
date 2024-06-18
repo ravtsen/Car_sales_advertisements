@@ -1,4 +1,4 @@
-# Triple Ten Sprint 6 project - car sales advertisements - web application build
+# Car sales advertisements - web application build
 
 ## Project description
 
